@@ -15,7 +15,7 @@ export default function Home() {
             alert(currentTask + " ya se encuentra en la lista");
         } else {
             setTasks([...tasks, currentTask]);
-            setToggle([...toggle], false);
+            setToggle([...toggle, false]);
             setCurrentTask("");
         }
     };
