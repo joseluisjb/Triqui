@@ -1,5 +1,6 @@
 "use client";
 
+import './styles.css'
 import { useEffect, useState } from "react";
 import Character from "../components/character";
 const API_BASE_URL = "https://thesimpsonsapi.com/api";
